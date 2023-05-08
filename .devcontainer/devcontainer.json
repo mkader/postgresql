@@ -28,9 +28,8 @@
                     "editor.formatOnSave": true,
                     "editor.codeActionsOnSave": {
                         "source.fixAll": true
-                    },
-                    "editor.defaultFormatter": "ms-python.black-formatter"
-                },
+                    }
+                 },
                 "python.formatting.provider": "black",
                 "sqltools.connections": [
 					{
