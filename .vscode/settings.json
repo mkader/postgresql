@@ -2,5 +2,29 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
-    "python.formatting.provider": "none"
+    "python.formatting.provider": "none",
+    "sqltools.connections": [
+        {
+            "name": "Local database",
+            "driver": "PostgreSQL",
+            "server": "localhost",
+            "port": 5432,
+            "database": "postgres",
+            "username": "admin",
+            "password": "LocalPasswordOnly"
+        },
+        {
+            "pgOptions": {
+                "ssl": true
+            },
+            "previewLimit": 50,
+            "server": "mak-vse-pyday-rg-psql-fs.postgres.database.azure.com",
+            "port": 5432,
+            "askForPassword": true,
+            "name": "Azure database",
+            "driver": "PostgreSQL",
+            "database": "postgres",
+            "username": "ps_admin"
+        }
+    ]
 }
