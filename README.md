@@ -154,15 +154,5 @@ Writing Django Apps
         Pinterest (originally, now Flask)
         Eventbrite
 
-Follow along with me!
-Open this project:
-github.com/Azure-Samples/msdocs-django-postgresql-sample-app
-aka.ms/django-restaurants
-
-Using either:Screenshot of GitHub Codespaces tab
-GitHub Codespaces ➡️ ➡️ ➡️
-VS Code with Dev Containers extension
-Local environment with Python 3 and PostgreSQL installed
-
 
 Django apps on Azure   

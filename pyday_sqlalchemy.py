@@ -38,7 +38,7 @@ Base.metadata.create_all(engine)
 with Session(engine) as session:
     # insert restaurant
     restaurant = Restaurant(
-        id="7",
+        id="8",
         name="Mak Dosa",
     )
     session.add(restaurant)
@@ -48,7 +48,7 @@ with Session(engine) as session:
     restaurants = session.query(Restaurant).filter_by(name="Mak Dosa").all()
     print(restaurants)
 
-    '''query = select(Restaurant).where(Restaurant.name == "Mak Dosa")
+    query = select(Restaurant).where(Restaurant.name == "Mak Dosa")
     restaurants2 = session.execute(query).scalars().all()
     print(restaurants2)
-    '''
+    
