@@ -96,7 +96,7 @@ Cloud Database for Web Apps  with Django
                 }
 
     SQLTools extension: Connect to local or cloud databases. Create, Read, Write database
-![alt](https://raw.githubusercontent.com/mkader/postgresql/main/github_codespae_sqltools.PNG)
+![alt](https://raw.githubusercontent.com/mkader/postgresql/main/github_codespace_sqltools.png)
     
 Databases in Python
     
@@ -145,6 +145,24 @@ Hosting DB (PostgreSQL) on Azure
   
 ![alt](https://raw.githubusercontent.com/mkader/postgresql/main/azure_postgresql_resource.PNG)
         
-Django
+Writing Django Apps
+    Django framework : an external library & framework for server-side code. Includes an ORM for database interaction.
+
+    Apps written in Django:
+        Coursera (originally, now Scala+Play)
+        Instagram
+        Pinterest (originally, now Flask)
+        Eventbrite
+
+Follow along with me!
+Open this project:
+github.com/Azure-Samples/msdocs-django-postgresql-sample-app
+aka.ms/django-restaurants
+
+Using either:Screenshot of GitHub Codespaces tab
+GitHub Codespaces ➡️ ➡️ ➡️
+VS Code with Dev Containers extension
+Local environment with Python 3 and PostgreSQL installed
+
 
 Django apps on Azure   
