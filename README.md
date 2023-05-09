@@ -1,4 +1,4 @@
-Cloud Database for Web Apps  with Django
+Local & Azure PostgreSQL Database setup with Python code to Access
 
     Types of databases
         Non-relational / document databases: MongoDB, Firebase, CouchDB, etc.
@@ -145,14 +145,15 @@ Hosting DB (PostgreSQL) on Azure
   
 ![alt](https://raw.githubusercontent.com/mkader/postgresql/main/azure_postgresql_resource.PNG)
         
-Writing Django Apps
-    Django framework : an external library & framework for server-side code. Includes an ORM for database interaction.
+Azure Cloud Database for Web Apps  with Django
+    Writing Django Apps
+        Django framework : an external library & framework for server-side code. Includes an ORM for database interaction.
 
-    Apps written in Django:
-        Coursera (originally, now Scala+Play)
-        Instagram
-        Pinterest (originally, now Flask)
-        Eventbrite
+        Apps written in Django:
+            Coursera (originally, now Scala+Play)
+            Instagram
+            Pinterest (originally, now Flask)
+            Eventbrite
 
 
 Django apps on Azure   
