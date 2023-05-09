@@ -91,8 +91,8 @@ Cloud Database for Web Apps  with Django
                     "password": "LocalPasswordOnly"
                 }
 
-    SQLTools extension: Connect to local or cloud databases. 
-    ![alt text]sqltools_github_codespace.PNG
+    SQLTools extension: Connect to local or cloud databases.
+![alt text]sqltools_github_codespace.PNG
     
         CREATE TABLE restaurants (
             id VARCHAR NOT NULL,
@@ -133,10 +133,10 @@ Hosting DB (PostgreSQL) on Azure
         🔗 aka.ms/flex-vs-cosmos Cosmos DB for PostgreSQL vs. Flex Server
 
     Provisioning PostgreSQL in Portal
-        Use the Azure Portal to create a PostgreSQL server: https://ms.portal.azure.com/#create/Microsoft.PostgreSQLFlexibleServer
-        Suggested setting: Development workload, Burstable (B1ms), defaults for other options. Screenshot of Burstable setting in Azure Portal
-        Save the admin password to a password manager or Key Vault!
-
+        Azure -> Azure Database for PostgreSQL – Flexible Server -> Select Development -> Configure without Firewall
+        Update Azure Connection setting in .env file
+        Update your client ip address, check "Allow public access from any Azure ..." in Azure PostgreSQL Server Networking
+  
 ![alt text]postgras_azure.PNG
 
         
