@@ -144,16 +144,7 @@ Hosting DB (PostgreSQL) on Azure
         DATABASE_URI += "?sslmode=require" => Adds SSL mode require, connecting to the production server is to enforce SSL
   
 ![alt](https://raw.githubusercontent.com/mkader/postgresql/main/azure_postgresql_resource.PNG)
-        
-Azure Cloud Database for Web Apps  with Django
-    Writing Django Apps
-        Django framework : an external library & framework for server-side code. Includes an ORM for database interaction.
 
-        Apps written in Django:
-            Coursera (originally, now Scala+Play)
-            Instagram
-            Pinterest (originally, now Flask)
-            Eventbrite
+Next
+    Writing Django Apps Django framework  - https://github.com/mkader/python_django_postgresql_azure_app
 
-
-Django apps on Azure   
